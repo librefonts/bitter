@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [Bitter-Regular.ttf.ttx, Bitter-Italic.ttf.ttx, Bitter-Bold.ttf.ttx,
+  src/Bitter-Italic.otf.ttx, src/Bitter-BoldItalic.otf.ttx, src/Bitter-Bold.otf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
